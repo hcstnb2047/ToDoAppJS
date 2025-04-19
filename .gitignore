@@ -1,0 +1,17 @@
+# ---------------- Node / TypeScript ----------------
+node_modules/
+dist/
+build/
+coverage/
+*.log
+.env
+
+# ---------------- OS / エディタ系 ----------------
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# ---------------- Docker ----------------
+# もし Docker ボリュームをホスト直下に置いているなら
+postgres_data/
